@@ -357,3 +357,39 @@ Nuraya Islamic Bank is committed to providing ethical, transparent, and customer
 The bank seeks to promote financial inclusion, sustainable economic growth, and responsible investment while maintaining the highest standards of integrity, professionalism, and regulatory compliance.
 
 Through innovation, technology, and Sharia-compliant financial solutions, Nuraya Islamic Bank aims to become a trusted partner for individuals, businesses, and communities seeking modern Islamic banking services.
+project/
+│
+├── app/
+│
+│   ├── customer/
+│   │   ├── routes.py
+│   │   ├── service.py
+│   │   ├── repository.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   └── __init__.py
+│   │
+│   ├── account/
+│   │   ├── routes.py
+│   │   ├── service.py
+│   │   ├── repository.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   └── __init__.py
+│   │
+│   ├── loan/
+│   │   ├── routes.py
+│   │   ├── service.py
+│   │   ├── repository.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   └── __init__.py
+│   │
+│   ├── auth/
+│   ├── employee/
+│   ├── reports/
+│   └── settings/
+│
+├── config/
+├── tests/
+└── main.py

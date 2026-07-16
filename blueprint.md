@@ -1,395 +1,268 @@
 # Nuraya Islamic Bank
 
-> **Business Blueprint**
+> **Business Blueprint (Beginner Version)**
 >
 > **Version:** 1.0  
 > **Bank Name:** Nuraya Islamic Bank  
-> **Bank Type:** Islamic Commercial Bank  
-> **Objective:** To provide modern, ethical, and Sharia-compliant banking services through a secure, transparent, and customer-centric banking system.
+> **Bank Type:** Islamic Bank
 
 ---
 
 # Introduction
 
-Nuraya Islamic Bank is a modern Islamic financial institution established to provide banking services that comply with the principles of Sharia. The bank operates without interest (Riba) and instead offers financial products based on profit-sharing, trade, leasing, partnership, and other Islamic contracts approved by its Sharia Supervisory Board.
+Nuraya Islamic Bank is an Islamic bank that provides financial services according to the principles of Sharia. Unlike conventional banks, the bank does not deal with interest (Riba). Instead, it offers ethical banking services based on Islamic business principles.
 
-The bank serves individuals, businesses, corporate organizations, government institutions, and investors by offering secure, transparent, and ethical financial solutions through both physical branches and digital banking channels.
+This beginner version focuses only on the core banking features required to run a small Islamic bank. More advanced features can be added later as the system grows.
+
+---
+
+# Customer Registration
+
+Every customer must register before using any banking service.
+
+During registration, the bank collects basic information such as:
+
+- Full Name
+- Date of Birth
+- Gender
+- Mobile Number
+- Email Address
+- Address
+- National ID / Passport
+- Photograph
+
+After verifying the customer's identity, the bank creates a unique **Customer ID (CIF)**. This Customer ID is used throughout the banking system.
 
 ---
 
 # Customer Management
 
-Every customer begins their banking relationship by registering with Nuraya Islamic Bank. During registration, the bank collects personal or business information, verifies identity documents, performs Know Your Customer (KYC) procedures, and conducts Anti-Money Laundering (AML) screening.
+The bank stores and manages customer information.
 
-Once the verification process is successfully completed, the customer is assigned a unique Customer Identification Number (CIF). This CIF becomes the customer's permanent banking identity and is linked to all accounts, investments, financing products, and future banking services.
+Employees can:
 
-The bank maintains complete customer profiles, including personal information, contact details, nominee information, identification documents, signatures, photographs, and account history.
+- Add a new customer
+- View customer details
+- Edit customer information
+- Search for customers
+- View all customer accounts
+
+Every customer has one profile that contains all of their banking information.
 
 ---
 
 # Account Management
 
-Customers can open one or more accounts depending on their financial requirements.
+After registration, customers can open one or more bank accounts.
 
-The bank offers various account types, including:
+The beginner system supports:
 
-- Savings Accounts
-- Current Accounts
-- Business Accounts
-- Joint Accounts
-- Minor Accounts
-- Investment Accounts
+- Savings Account
+- Current Account
 
-Each account is assigned a unique account number and is linked to the customer's CIF.
+Each account has:
 
-Customers can access their accounts through branches, internet banking, mobile banking, and ATM services.
+- Account Number
+- Customer ID
+- Opening Date
+- Current Balance
+- Account Status
 
-The bank manages account opening, account closure, account freezing, dormant accounts, blocked accounts, and account reactivation according to banking regulations.
-
----
-
-# Deposit and Withdrawal Services
-
-Customers can deposit or withdraw funds through authorized banking channels.
-
-Every transaction is verified before execution and recorded immediately within the banking system.
-
-Each successful transaction automatically updates the customer's available balance and generates a transaction reference number.
-
-Customers receive instant notifications through SMS, email, or mobile banking after every successful transaction.
+The bank can also close or temporarily block an account if required.
 
 ---
 
-# Fund Transfers and Payments
+# Cash Deposit
 
-Nuraya Islamic Bank enables customers to transfer money securely between their own accounts, to other customers within the bank, and to accounts held with other financial institutions.
+Customers can deposit money into their accounts.
 
-Customers can also perform:
+The bank employee enters:
 
-- Utility Bill Payments
-- Government Payments
-- Scheduled Transfers
-- Standing Instructions
-- Beneficiary Transfers
-- Salary Payments
-- Merchant Payments
+- Account Number
+- Deposit Amount
+- Deposit Date
+- Remarks
 
-Every transfer is securely authorized, recorded, and monitored for fraud prevention.
+After saving the transaction:
+
+- The account balance increases.
+- A transaction record is created.
+- A receipt can be printed.
+
+---
+
+# Cash Withdrawal
+
+Customers can withdraw money from their accounts.
+
+Before allowing the withdrawal, the system checks:
+
+- Whether the account exists.
+- Whether the account is active.
+- Whether sufficient balance is available.
+
+If everything is correct:
+
+- The balance is reduced.
+- The transaction is recorded.
+- A receipt is generated.
+
+---
+
+# Money Transfer
+
+Customers can transfer money between accounts within Nuraya Islamic Bank.
+
+The transfer process includes:
+
+- Selecting the sender account.
+- Selecting the receiver account.
+- Entering the amount.
+- Confirming the transaction.
+
+The system automatically updates both account balances and stores the transaction history.
+
+---
+
+# Transaction History
+
+Every deposit, withdrawal, and transfer is saved in the system.
+
+Employees and customers can view:
+
+- Transaction Date
+- Transaction Type
+- Amount
+- Account Number
+- Balance After Transaction
+
+This allows customers to keep track of all banking activities.
 
 ---
 
 # Islamic Financing
 
-Nuraya Islamic Bank does not provide conventional interest-based loans.
+Instead of providing traditional loans, Nuraya Islamic Bank offers simple Islamic financing.
 
-Instead, financing is provided through Sharia-compliant contracts such as:
+The beginner version includes:
 
-- Murabaha (Cost Plus Financing)
-- Mudarabah (Profit Sharing Partnership)
-- Musharakah (Joint Partnership)
-- Ijarah (Leasing)
-- Salam (Advance Purchase)
-- Istisna (Manufacturing Contract)
-- Qard Hasan (Benevolent Loan)
+- Murabaha (Cost Plus Sale)
+- Qard Hasan (Interest-Free Loan)
 
-Customers submit financing applications together with the required documentation.
+Customers can:
 
-The bank evaluates the customer's eligibility, verifies documents, conducts risk assessments, and obtains Sharia approval before financing is approved.
-
-After contract execution, repayments are managed according to the agreed Islamic financing structure.
-
----
-
-# Investment Services
-
-Customers may invest through Sharia-compliant investment products offered by the bank.
-
-Investment funds are pooled and invested only in halal businesses and approved financial instruments.
-
-Investment performance is monitored continuously, and profits are distributed based on agreed profit-sharing ratios.
-
-Customers receive regular investment statements showing capital invested, profit earned, and current investment value.
-
----
-
-# Profit Distribution
-
-Profit generated from investment activities is calculated periodically according to Islamic banking principles.
-
-Before distribution, profit calculations are reviewed by both the Finance Department and the Sharia Supervisory Board.
-
-After approval, eligible customers receive their share of profits directly into their investment or savings accounts.
-
-Profit calculations remain transparent and fully auditable.
-
----
-
-# Zakat Services
-
-Nuraya Islamic Bank assists customers in fulfilling their religious obligation of Zakat.
-
-The bank calculates eligible Zakat based on customer assets held within the bank and provides customers with recommended payment amounts.
-
-Customers may authorize the bank to deduct and distribute Zakat to approved charitable organizations.
-
-Official receipts and payment history are maintained for every Zakat transaction.
-
----
-
-# Takaful Services
-
-The bank provides Islamic protection solutions through approved Takaful partners.
-
-Customers may subscribe to:
-
-- Family Takaful
-- Health Takaful
-- Vehicle Takaful
-- Property Takaful
-- Business Takaful
-
-Contribution payments, policy management, and claims are handled according to Islamic cooperative insurance principles.
-
----
-
-# Branch Operations
-
-Every Nuraya Islamic Bank branch provides customers with complete banking services.
-
-Branch operations include:
-
-- Customer Registration
-- Account Opening
-- Cash Deposits
-- Cash Withdrawals
-- Financing Services
-- Customer Support
-- Investment Services
-- Document Verification
-
-Branch Managers supervise daily operations while ensuring compliance with banking regulations and Sharia principles.
-
----
-
-# Customer Service
-
-Customer Service Representatives assist customers with all banking-related inquiries and service requests.
-
-Services include:
-
-- Account Assistance
-- Product Information
-- Complaint Handling
-- Document Updates
-- Card Replacement
-- PIN Reset
-- Internet Banking Support
-- Mobile Banking Support
-
-Each customer request receives a tracking reference until successfully resolved.
+- Apply for financing.
+- Submit required documents.
+- Receive approval.
+- Repay the financing according to the agreed schedule.
 
 ---
 
 # Employee Management
 
-Nuraya Islamic Bank employs qualified professionals to manage banking operations.
+The bank has different employees who perform different tasks.
 
-Employee categories include:
+Examples include:
 
-- Branch Managers
-- Operations Managers
-- Customer Service Officers
-- Cashiers
-- Relationship Managers
-- Finance Officers
-- Compliance Officers
-- Internal Auditors
-- IT Administrators
+- Branch Manager
+- Cashier
+- Customer Service Officer
 
-Every employee is assigned role-based permissions that determine which banking functions they may access.
+Each employee has their own username and password.
+
+Employees can only access the features allowed for their role.
 
 ---
 
-# Treasury Management
+# Branch Management
 
-The Treasury Department manages the bank's liquidity, cash reserves, investment portfolios, and interbank transactions.
+The beginner system supports one or more branches.
 
-The department ensures sufficient liquidity for daily banking operations while investing excess funds only in Sharia-compliant investment opportunities.
+Each branch stores:
 
-Treasury activities are continuously monitored to maintain financial stability.
+- Branch Name
+- Branch Code
+- Address
+- Phone Number
+- Branch Manager
 
----
-
-# Compliance and Risk Management
-
-The Compliance Department ensures that the bank follows all applicable banking laws, regulations, KYC requirements, AML regulations, and internal banking policies.
-
-The Risk Management Department continuously monitors:
-
-- Credit Risk
-- Operational Risk
-- Liquidity Risk
-- Market Risk
-- Fraud Risk
-- Cyber Security Risk
-
-Regular assessments help protect both customers and the bank.
+Customers can be assigned to a specific branch.
 
 ---
 
-# Sharia Supervisory Board
+# User Login
 
-The Sharia Supervisory Board is responsible for ensuring that every banking product and service complies with Islamic principles.
+Employees must log in before using the banking system.
 
-The Board reviews:
+Each employee has:
 
-- Financing Products
-- Investment Products
-- Banking Contracts
-- Profit Distribution
-- Treasury Activities
-- New Banking Services
+- Username
+- Password
+- Role
 
-No financial product is introduced without Sharia approval.
+After login, employees only see the menus they are allowed to use.
 
 ---
 
-# Internal Audit
+# Reports
 
-The Internal Audit Department independently reviews all banking operations.
+The bank can generate simple reports such as:
 
-Audit activities include:
+- Customer List
+- Account List
+- Deposit Report
+- Withdrawal Report
+- Transfer Report
+- Daily Transaction Report
 
-- Financial Audits
-- Operational Audits
-- Compliance Audits
-- IT Audits
-- Branch Audits
-- Transaction Reviews
-
-Audit findings are reported directly to senior management to ensure transparency and accountability.
+Reports help the bank monitor daily operations.
 
 ---
 
-# Digital Banking
+# Basic Security
 
-Customers have secure access to their accounts through modern digital banking platforms.
+The banking system provides simple security features.
 
-Digital services include:
+These include:
 
-- Account Balance Inquiry
-- Fund Transfers
+- Secure Login
+- Password Protection
+- User Roles
+- Transaction Records
+- Activity Logs
+
+These features help protect customer information and banking data.
+
+---
+
+# Future Features
+
+As Nuraya Islamic Bank grows, the following features can be added:
+
+- Mobile Banking
+- Internet Banking
+- ATM Services
+- Debit Cards
+- Investment Accounts
+- Mudarabah
+- Musharakah
+- Ijarah
+- Takaful
+- Zakat Management
+- SMS Notifications
+- Email Notifications
+- QR Payments
 - Bill Payments
-- Investment Monitoring
-- Financing Applications
-- Statement Downloads
-- Beneficiary Management
-- Transaction History
-- Secure Messaging
+- Online Account Opening
 
-Digital banking provides customers with convenient access to banking services anytime and anywhere.
+These features are not included in the beginner version but can be developed in future phases.
 
 ---
 
-# Notifications and Communication
+# Conclusion
 
-Nuraya Islamic Bank keeps customers informed through multiple communication channels.
+This beginner version of **Nuraya Islamic Bank** focuses on the essential functions required to operate a small Islamic bank.
 
-Notifications include:
+The system allows the bank to register customers, open accounts, manage deposits and withdrawals, transfer money, provide simple Islamic financing, and generate reports. It is designed to be simple, easy to understand, and suitable for learning or building the first version of a banking application.
 
-- Transaction Alerts
-- Account Activity
-- Financing Updates
-- Investment Profit Distribution
-- Security Alerts
-- Statement Availability
-- Promotional Announcements
-
-Customers may choose their preferred notification method, including SMS, email, or mobile push notifications.
-
----
-
-# Reports and Business Intelligence
-
-The bank generates comprehensive reports to support operational management and strategic decision-making.
-
-Reports include:
-
-- Customer Reports
-- Account Reports
-- Transaction Reports
-- Financing Reports
-- Investment Reports
-- Profit Reports
-- Branch Performance Reports
-- Employee Performance Reports
-- Audit Reports
-- Compliance Reports
-- Regulatory Reports
-- Sharia Compliance Reports
-
-These reports provide management with accurate and timely information for business planning and regulatory reporting.
-
----
-
-# Security and Data Protection
-
-Security is a fundamental principle of Nuraya Islamic Bank.
-
-The banking system protects customer information using:
-
-- Multi-Factor Authentication
-- Data Encryption
-- Role-Based Access Control
-- Secure Communication Channels
-- Continuous System Monitoring
-- Comprehensive Audit Trails
-- Fraud Detection Mechanisms
-
-Every customer action and financial transaction is securely recorded to maintain transparency and accountability.
-
----
-
-# Banking Philosophy
-
-Nuraya Islamic Bank is committed to providing ethical, transparent, and customer-focused financial services that align with Islamic values.
-
-The bank seeks to promote financial inclusion, sustainable economic growth, and responsible investment while maintaining the highest standards of integrity, professionalism, and regulatory compliance.
-
-Through innovation, technology, and Sharia-compliant financial solutions, Nuraya Islamic Bank aims to become a trusted partner for individuals, businesses, and communities seeking modern Islamic banking services.
-project/
-│
-├── app/
-│
-│   ├── customer/
-│   │   ├── routes.py
-│   │   ├── service.py
-│   │   ├── repository.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   └── __init__.py
-│   │
-│   ├── account/
-│   │   ├── routes.py
-│   │   ├── service.py
-│   │   ├── repository.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   └── __init__.py
-│   │
-│   ├── loan/
-│   │   ├── routes.py
-│   │   ├── service.py
-│   │   ├── repository.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   └── __init__.py
-│   │
-│   ├── auth/
-│   ├── employee/
-│   ├── reports/
-│   └── settings/
-│
-├── config/
-├── tests/
-└── main.py
+As the bank expands, additional Islamic banking products and advanced digital banking services can be added without changing the overall structure of the system.

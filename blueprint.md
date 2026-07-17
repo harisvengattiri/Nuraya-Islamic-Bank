@@ -10,175 +10,81 @@
 
 # Introduction
 
-Nuraya Islamic Bank is an Islamic bank that provides financial services according to the principles of Sharia. Unlike conventional banks, the bank does not deal with interest (Riba). Instead, it offers ethical banking services based on Islamic business principles.
+Nuraya Islamic Bank is a banking system, which is working under the rule of Islamic Banking which will not deal with interest like other comersial banking system. And now we are dealing with the basic and core of this banking system in this phase 1. Later we can come with more advanced in phase 2.
 
-This beginner version focuses only on the core banking features required to run a small Islamic bank. More advanced features can be added later as the system grows.
+# User Management
 
----
+This User Management includes mainly the below features
 
-# Customer Registration
+- Add / Register a new user to the banking system.[Collect all valid information].
+- By default, the registered user will be a customer, Role of this user can be changed by the admin.
+- Option for view details of registered users.
+- Edit Option for user details.
+- Search option for the users [for Banking side].
+- view details of account side like transactions.
 
-Every customer must register before using any banking service.
-
-During registration, the bank collects basic information such as:
-
-- Full Name
-- Date of Birth
-- Gender
-- Mobile Number
-- Email Address
-- Address
-- National ID / Passport
-- Photograph
-
-After verifying the customer's identity, the bank creates a unique **Customer ID (CIF)**. This Customer ID is used throughout the banking system.
-
----
-
-# Customer Management
-
-The bank stores and manages customer information.
-
-Employees can:
-
-- Add a new customer
-- View customer details
-- Edit customer information
-- Search for customers
-- View all customer accounts
-
-Every customer has one profile that contains all of their banking information.
-
----
+After registration the bank user will have a profile and a unique number that is CIF. by this ID all the transactions will be made.
 
 # Account Management
 
-After registration, customers can open one or more bank accounts.
+At the time of registration itself an account is opened at our bank. it can be Savings or Current Account.
 
-The beginner system supports:
+Account will be having
 
-- Savings Account
-- Current Account
-
-Each account has:
-
-- Account Number
-- Customer ID
-- Opening Date
-- Current Balance
+- An Account Number
 - Account Status
+- Opening Date
+- Opening Balance
+- Current Balance
 
-The bank can also close or temporarily block an account if required.
+The bank will be having all the rights over this account if required.
 
----
+# Cash Deposit and Withdrawal
 
-# Cash Deposit
+User or Customer can deposit of withdraw money from their account.
+Account Number,Date,Amount will be required for both activity.
+Withdrawal will be more secure, like it will check whether this user is autherised to take the moneyback.
 
-Customers can deposit money into their accounts.
+will affect the account as
 
-The bank employee enters:
-
-- Account Number
-- Deposit Amount
-- Deposit Date
-- Remarks
-
-After saving the transaction:
-
-- The account balance increases.
-- A transaction record is created.
-- A receipt can be printed.
-
----
-
-# Cash Withdrawal
-
-Customers can withdraw money from their accounts.
-
-Before allowing the withdrawal, the system checks:
-
-- Whether the account exists.
-- Whether the account is active.
-- Whether sufficient balance is available.
-
-If everything is correct:
-
-- The balance is reduced.
-- The transaction is recorded.
-- A receipt is generated.
-
----
+- Balance is updated
+- Transaction is recorded
+- Receipt is generated
 
 # Money Transfer
 
-Customers can transfer money between accounts within Nuraya Islamic Bank.
+more than deposit or withdrawal, our bank provides an option to transfer money also. process is given below
 
-The transfer process includes:
-
-- Selecting the sender account.
-- Selecting the receiver account.
-- Entering the amount.
-- Confirming the transaction.
-
-The system automatically updates both account balances and stores the transaction history.
-
----
+- sender account is selected as the opened account.
+- select the receiver account.
+- eneter the amount, date will be taken automatically.
+- system will check the balance of sender and then proceeds.
+- automatically update balance of both parties.
 
 # Transaction History
 
-Every deposit, withdrawal, and transfer is saved in the system.
+it is keeping a history of all the transactions like deposit,withdrawal and tranfer for tracking all banking activities.
 
-Employees and customers can view:
-
-- Transaction Date
-- Transaction Type
-- Amount
-- Account Number
-- Balance After Transaction
-
-This allows customers to keep track of all banking activities.
-
----
+Bank Employees and the User can also view these transaction details.
 
 # Islamic Financing
 
-Instead of providing traditional loans, Nuraya Islamic Bank offers simple Islamic financing.
-
-The beginner version includes:
-
-- Murabaha (Cost Plus Sale)
-- Qard Hasan (Interest-Free Loan)
-
-Customers can:
+Instead of Traditional loan, our bank is providing interest free loan.
+for that, Customers can
 
 - Apply for financing.
 - Submit required documents.
 - Receive approval.
 - Repay the financing according to the agreed schedule.
 
----
-
 # Employee Management
 
-The bank has different employees who perform different tasks.
-
-Examples include:
-
-- Branch Manager
-- Cashier
-- Customer Service Officer
-
-Each employee has their own username and password.
-
-Employees can only access the features allowed for their role.
-
----
+Each employee will be having role which is given by admin.
+As per that roles, employee will have provision to view the menu which is accessible to their position.
 
 # Branch Management
 
-The beginner system supports one or more branches.
-
-Each branch stores:
+Brach requires the following data
 
 - Branch Name
 - Branch Code
@@ -188,25 +94,9 @@ Each branch stores:
 
 Customers can be assigned to a specific branch.
 
----
-
-# User Login
-
-Employees must log in before using the banking system.
-
-Each employee has:
-
-- Username
-- Password
-- Role
-
-After login, employees only see the menus they are allowed to use.
-
----
-
 # Reports
 
-The bank can generate simple reports such as:
+Bank can generate reports such as:
 
 - Customer List
 - Account List
@@ -214,16 +104,11 @@ The bank can generate simple reports such as:
 - Withdrawal Report
 - Transfer Report
 - Daily Transaction Report
-
-Reports help the bank monitor daily operations.
-
----
+- Account Statement [User can generate]
 
 # Basic Security
 
-The banking system provides simple security features.
-
-These include:
+Basic Security include:
 
 - Secure Login
 - Password Protection
@@ -231,38 +116,8 @@ These include:
 - Transaction Records
 - Activity Logs
 
-These features help protect customer information and banking data.
-
----
-
-# Future Features
-
-As Nuraya Islamic Bank grows, the following features can be added:
-
-- Mobile Banking
-- Internet Banking
-- ATM Services
-- Debit Cards
-- Investment Accounts
-- Mudarabah
-- Musharakah
-- Ijarah
-- Takaful
-- Zakat Management
-- SMS Notifications
-- Email Notifications
-- QR Payments
-- Bill Payments
-- Online Account Opening
-
-These features are not included in the beginner version but can be developed in future phases.
-
----
-
 # Conclusion
 
-This beginner version of **Nuraya Islamic Bank** focuses on the essential functions required to operate a small Islamic bank.
+This version focuses on the essential functions required to operate a small Islamic bank.
 
-The system allows the bank to register customers, open accounts, manage deposits and withdrawals, transfer money, provide simple Islamic financing, and generate reports. It is designed to be simple, easy to understand, and suitable for learning or building the first version of a banking application.
-
-As the bank expands, additional Islamic banking products and advanced digital banking services can be added without changing the overall structure of the system.
+This Version allows the bank to register customers, open accounts, manage deposits and withdrawals, transfer money, provide simple Islamic financing, and generate reports.

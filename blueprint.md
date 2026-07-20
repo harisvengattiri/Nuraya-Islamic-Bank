@@ -1,10 +1,11 @@
 # Nuraya Islamic Bank
 
-> **Business Blueprint (Beginner Version)**
+> **Business Blueprint**
 >
 > **Version:** 1.0  
 > **Bank Name:** Nuraya Islamic Bank  
-> **Bank Type:** Islamic Bank
+> **Bank Type:** Islamic Commercial Bank  
+> **Objective:** To provide modern, ethical, and Sharia-compliant banking services through a secure, transparent, and customer-centric banking system.
 
 ---
 

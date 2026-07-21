@@ -6,7 +6,7 @@
 
 # Work Flow
 
-Nuraya Islamic Bank, is a bank which should work by the rule of islamic banking, which is against the commersial banking rule and which should not deal with interest.
+Nuraya Islamic Bank, is a bank which should work by the rule of islamic banking, which is against the commercial banking rule and which should not deal with interest.
 
 Those who are interested in the system by which our money will not multiply but it need to be safe will be attracted to this banking system.
 
